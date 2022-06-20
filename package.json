@@ -1,0 +1,25 @@
+{
+    "name": "deeplang-plugin",
+    "displayName": "deeplang-plugin",
+    "description": "deeeplang plugin",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "deeplang",
+            "aliases": ["deeplang", "deeplang"],
+            "extensions": [".dp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "deeplang",
+            "scopeName": "source.deeplang",
+            "path": "./syntaxes/deeplang.tmLanguage.json"
+        }]
+    }
+}
