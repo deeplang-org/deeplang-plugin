@@ -1,8 +1,9 @@
 {
     "name": "deeplang-plugin",
-    "displayName": "deeplang-plugin",
-    "description": "deeeplang plugin",
+    "displayName": "Deeplang Syntax",
+    "description": "deeeplang plugin support for Deeplang syntax highlighting",
     "version": "0.0.1",
+    "publisher": "deeplang",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -21,5 +22,10 @@
             "scopeName": "source.deeplang",
             "path": "./syntaxes/deeplang.tmLanguage.json"
         }]
-    }
+    },
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/deeplang-org/deeplang-plugin.git"
+	},
+    "icon": "icon.png"
 }
