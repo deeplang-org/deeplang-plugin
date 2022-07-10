@@ -1,11 +1,11 @@
 {
     "name": "deeplang-plugin",
     "displayName": "Deeplang Syntax",
-    "description": "deeeplang plugin support for Deeplang syntax highlighting",
+    "description": "deeplang plugin support for Deeplang syntax highlighting",
     "version": "0.0.1",
-    "publisher": "deeplang",
+    "publisher": "Deeplang",
     "engines": {
-        "vscode": "^1.68.0"
+        "vscode": "^1.63.0"
     },
     "categories": [
         "Programming Languages"
